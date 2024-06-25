@@ -7,11 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: '#000E20',
+        secondary: {
+          100: '#CD4154',
+          200: '#888883',
+          300: '#F8EFEF',
+        }
       },
+      fontFamily: {
+        body: ['Raleway']
+      }
     },
   },
   plugins: [],
