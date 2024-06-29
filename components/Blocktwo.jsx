@@ -71,8 +71,8 @@ const Blocktwo = () => {
 
                         <div key={id} className='flex flex-col w-[350px] md:w-[413px] h-[338px] shadow-lg rounded-[20px] px-[20px] py-[24px] border-[1px] border-gray-200 group group-hover:h-[397px] duration-500'>
                             
-                            <div className='w-[373px] h-[152px] bg-black rounded-[4px] group-hover:h-[211px] overflow-hidden duration-500'>
-                                <Image src={coursefig} width={373} height={152} style={{objectFit: "cover"}} alt="Course picture" className='rounded-[4px] ' />
+                            <div className='w-[310px] h-[152px] bg-black rounded-[4px] group-hover:h-[211px] overflow-hidden duration-500'>
+                                <Image src={coursefig} width={310} height={152} style={{objectFit: "cover"}} alt="Course picture" className='rounded-[4px] ' />
                             </div>
 
 
@@ -86,7 +86,7 @@ const Blocktwo = () => {
                             </div>
 
                             <div className='pt-2'>
-                                <button className='w-[373px] h-[51px] rounded-[35px] border-[1px] border-secondary-100 font-body font-[600] text-secondary-100 group-hover:bg-secondary-100 group-hover:text-white'>Eroll Now</button>
+                                <button className='w-[310px] h-[51px] rounded-[35px] border-[1px] border-secondary-100 font-body font-[600] text-secondary-100 group-hover:bg-secondary-100 group-hover:text-white'>Eroll Now</button>
                             </div>
 
 
