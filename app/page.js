@@ -3,6 +3,7 @@ import Blockfour from '@/components/Blockfour'
 import Blockone from '@/components/Blockone'
 import Blocksix from '@/components/Blocksix'
 import Blocktwo from '@/components/Blocktwo'
+import Footer from '@/components/Footer'
 import React from 'react'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Blockfour/>
       <Blockfive/>
       <Blocksix/>
+      <Footer/>
 
     </div>
   )
