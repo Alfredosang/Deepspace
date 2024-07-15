@@ -5,6 +5,8 @@ import Blocksix from '@/components/Blocksix'
 import Blocktwo from '@/components/Blocktwo'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
+import Metalworks from '@/components/Metalworks'
+import Projectgallery from '@/components/Projectgallery'
 import React from 'react'
 
 const Home = () => {
@@ -13,10 +15,12 @@ const Home = () => {
       
       <Hero/>
       <Blockone/>
+      <Metalworks/>
       <Blocktwo/>
       <Blockfour/>
       <Blockfive/>
       <Blocksix/>
+      <Projectgallery/>
       <Footer/>
 
     </div>

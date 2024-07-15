@@ -6,51 +6,29 @@ const courseCard = [
 
     {
         id: 1,
-        coursefig: "/assets/figOne.jpg",
-        miniCourseTitle: 'UIUX Design',
-        MajorCourseTitle: 'UI Design fo Beginners',
+        coursefig: "/assets/3dDesign.png",
+        miniCourseTitle: '3D Design',
+        MajorCourseTitle: '3D Design and Printing',
         link: ''
 
     },
     {
         id: 2,
-        coursefig: "/assets/figOne.jpg",
-        miniCourseTitle: 'UIUX Design',
-        MajorCourseTitle: 'UI Design fo Beginners',
+        coursefig: "/assets/furniture.png",
+        miniCourseTitle: 'Furniture',
+        MajorCourseTitle: 'Furniture Designs',
         link: ''
     },
 
     {
         id: 3,
-        coursefig: "/assets/figOne.jpg",
-        miniCourseTitle: 'UIUX Design',
-        MajorCourseTitle: 'UI Design fo Beginners',
-        link: ''
-    },
-
-    {
-        id: 4,
-        coursefig: "/assets/figOne.jpg",
-        miniCourseTitle: 'UIUX Design',
-        MajorCourseTitle: 'UI Design fo Beginners',
-        link: ''
-    },
-
-    {
-        id: 5,
-        coursefig: "/assets/figOne.jpg",
-        miniCourseTitle: 'UIUX Design',
-        MajorCourseTitle: 'UI Design fo Beginners',
-        link: ''
-    },
-
-    {
-        id: 6,
-        coursefig: "/assets/figOne.jpg",
-        miniCourseTitle: 'UIUX Design',
-        MajorCourseTitle: 'UI Design fo Beginners',
+        coursefig: "/assets/robotics.png",
+        miniCourseTitle: 'Robotics',
+        MajorCourseTitle: 'Introduction to Robotics',
         link: ''
     }
+
+    
 ]
 
 const Blocktwo = () => {
@@ -86,7 +64,7 @@ const Blocktwo = () => {
                             </div>
 
                             <div className='pt-2'>
-                                <button className='w-[310px] h-[51px] rounded-[35px] border-[1px] border-secondary-100 font-body font-[600] text-secondary-100 group-hover:bg-secondary-100 group-hover:text-white'>Eroll Now</button>
+                                <button className='w-[310px] h-[51px] rounded-[35px] border-[1px] border-secondary-100 font-body font-[600] text-secondary-100 group-hover:bg-secondary-100 group-hover:text-white'>Coming Soon</button>
                             </div>
 
 
