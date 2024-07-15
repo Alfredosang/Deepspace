@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav className='flex  justify-between  px-7 md:px-32 items-center fixed z-10  h-[100px] bg-white w-full  mx-auto'>
                 <p className='font-bold font-body text-lg'>Deepspace</p>
 
-                <ui className='flex text-gray-500 text-sm list-none space-x-3 font-body '>
+                <ui className='hidden md:flex text-gray-500 text-sm list-none space-x-3 font-body'>
                     <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>About Us</li>
                     <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Community</li>
                     <li className='flex justify-items-bottom hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'><p>Programs</p> <IoIosArrowDown size={18} /></li>
@@ -25,7 +25,7 @@ const Navbar = () => {
                     <li className=' duration-300 cursor-pointer hover:text-secondary-100'>
                         <div className='flex justify-items-center space-x-1 '>
                             <HiOutlineShoppingCart size={18} />
-                            <p>Cart</p>
+                            <p className='hidden md:flex'>Cart</p>
                         </div>
 
                     </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
 
 
-                        <div className='flex justify-items-center space-x-1 '>
+                        <div className='hidden md:flex justify-items-center space-x-1 '>
                             <IoIosSearch size={18} />
                             <p>
                                 Search
