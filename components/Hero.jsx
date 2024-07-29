@@ -83,7 +83,7 @@ const Hero = () => {
               swipeable
             >
               <div className='relative'>
-                <Image src="/assets/heroOne.png" width={1336} height={483} style={{ objectFit: "contain" }} alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
+                <Image  src="/assets/heroOne.png" width={1336} height={483} style={{ objectFit: "contain" }} alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
               </div>
 
             </Carousel>

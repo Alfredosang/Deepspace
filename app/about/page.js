@@ -1,9 +1,16 @@
+import Aboutushero from '@/components/AboutUsHero'
+import Blockfour from '@/components/Blockfour'
+import Footer from '@/components/Footer'
+import Projectgallery from '@/components/Projectgallery'
 import React from 'react'
 
 const About = () => {
   return (
     <div>
-        We are the users
+      <Aboutushero/>
+      <Blockfour/>
+      <Projectgallery />
+      <Footer />
     </div>
   )
 }

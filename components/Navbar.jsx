@@ -4,6 +4,7 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { IoIosSearch } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import Image from 'next/image';
+import Link from 'next/link';
 // import { PiShoppingCart } from "react-icons/pi";
 
 const Navbar = () => {
@@ -11,10 +12,12 @@ const Navbar = () => {
         <div>
             <nav className='flex  justify-between  px-7 md:px-32 items-center fixed z-10  h-[100px] bg-white w-full  mx-auto'>
                 {/* <p className='font-bold font-body text-lg'>Deepspace</p> */}
-                <Image src="/assets/deepspaceLogo.png" width={190} height={80} alt="Logo" />
+                <Link href="/"><Image src="/assets/deepspaceLogo.png" width={190} height={80} alt="Logo" /></Link>
 
                 <ui className='hidden md:flex text-gray-500 text-sm list-none space-x-3 font-body'>
-                    <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>About Us</li>
+                    <Link href="/about">
+                        <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>About Us</li>
+                    </Link>
                     <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Community</li>
                     <li className='flex justify-items-bottom hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'><p>Programs</p> <IoIosArrowDown size={18} /></li>
                     <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Shop</li>
