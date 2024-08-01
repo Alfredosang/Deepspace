@@ -14,19 +14,19 @@ const Hero = () => {
     <div className=' pt-[170px]'>
       <div className='flex justify-between'>
         <div>
-          <div className='container mx-[150px] flex justify-start gap-2'>
-            <h1 className='font-body text-black font-[700]  text-[66px] max-w-[610px] leading-[80px]'>Where Imagination Sparks Innovation</h1>
-            <div className='flex flex-col justify-end ml-7'>
+          <div className='container md:mx-[150px] flex flex-col md:flex-row lg:flex-row justify-start gap-2'>
+            <h1 className='font-body text-black font-[700] text-[24px]  md:text-[66px] lg:text-[66px] max-w-[610px] leading-[24px] md:leading-[80px] lg:leading-[80px]'>Where Imagination Sparks Innovation</h1>
+            <div className='flex flex-col justify-end md:ml-7 lg:ml-7'>
               <p className='font-[400] font-body text-[16px] mb-5'>Ignite Your Creativity, Fuel Your Future</p>
               <div>
-                <button className='bg-secondary-100 text-white h-[56px] w-[171px] rounded-[35px] flex justify-center align-items-middle pt-3 space-x-2'><p>Start Now</p>
+                <button className='bg-secondary-100 text-white w-[146px] h-[] md:h-[56px] md:w-[171px] rounded-[35px] flex justify-center align-items-middle pt-3 space-x-2'><p>Start Now</p>
                   <FaArrowRight className='text-white text-[24px] pt-1' />
                 </button>
               </div>
             </div>
           </div>
 
-          <div className='bg-black w-[1336px] h-[483px] rounded-r-[32px] overflow-hidden mt-4 ' style={{
+          <div className='bg-black w-[300px] md:w-[900px] lg:w-[1336px] h-[483px] rounded-r-[32px] mt-4 ' style={{
             paddingBottom: '30px',
             position: 'relative'
           }}>
@@ -82,18 +82,26 @@ const Hero = () => {
               slidesToSlide={1}
               swipeable
             >
-              <div className='relative'>
-                <Image  src="/assets/heroOne.png" width={1336} height={483} style={{ objectFit: "contain" }} alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
+              {/* <div className='relative w-[300px] md:w-[900px] lg:w-[1336px] h-[483px]'>
+                <Image  src="/assets/heroOne.png" layout={'fill'} objectFit="cover"  alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
+              </div> */}
+
+              <div className='relative w-[368px] h-[214px] md:w-[900px] lg:w-[1336px] md:h-[483px] lg:h-[483px] rounded-r-[32px] overflow-hidden'>
+                <Image src="/assets/heroOne.png" layout={'fill'} objectFit="cover" alt="Hero first image"  className='rounded-r-[32px]'/><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
               </div>
 
             </Carousel>
+
+            {/* <div className='relative w-[268px] h-[214px] md:w-[900px] lg:w-[1336px] md:h-[483px] lg:h-[483px]'>
+              <Image src="/assets/heroOne.png" layout={'fill'} objectFit="cover" alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
+            </div> */}
 
           </div>
 
         </div>
 
-        <div className='h-[660px] w-[530px] bg-black rounded-l-[32px] overflow-hidden'>
-          <Image src="/assets/heroTwo.png" width={530} height={660} style={{ objectFit: "contain" }} alt="Hero Second image" />
+        <div className='w-[95px] h-[238px] md:h-[660px] md:w-[530px] lg:w-[530px] lg:h-[660px] bg-black rounded-l-[32px] overflow-hidden '>
+          <Image src="/assets/heroTwo.png" width={530} height={660}  objectFit="cover" alt="Hero Second image" />
         </div>
 
       </div>

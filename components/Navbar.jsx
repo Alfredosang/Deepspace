@@ -18,7 +18,10 @@ const Navbar = () => {
                     <Link href="/about">
                         <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>About Us</li>
                     </Link>
-                    <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Community</li>
+
+                    <Link href="/community">
+                        <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Community</li>
+                    </Link>
                     <li className='flex justify-items-bottom hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'><p>Programs</p> <IoIosArrowDown size={18} /></li>
                     <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Shop</li>
                     <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Contact Us</li>
