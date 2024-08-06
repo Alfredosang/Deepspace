@@ -10,7 +10,7 @@ const Community = () => {
                 <div className='flex justify-center py-16'>
                     <div className=''>
                         <div className='relative min-w-[400px] max-h-[700px]md:w-[900px] md:h-[500px]  lg:w-[1280px] lg:h-[400px] rounded-[100px]  '>
-                            <Image src="/assets/abHero.jpeg" layout={'fill'} objectFit="cover" alt="About Us Hero Image" />
+                            <Image src="/assets/comm.jpeg" layout={'fill'} objectFit="cover" alt="About Us Hero Image" />
 
 
 
