@@ -49,7 +49,7 @@ const Community = () => {
 
                 </div>
 
-                <div className='flex flex-wrap gap-7 '>
+                <div className='flex flex-wrap gap-7  my-16'>
                     <div className='bg-black w-[220px] h-[145px] rounded-md'></div>
                     <div className='flex flex-col gap-5 w-[220px] h-[145px]'>
                         <div className='bg-black w-[220px] h-[81px] rounded-md'></div>

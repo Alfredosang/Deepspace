@@ -19,7 +19,7 @@ const Projectgallery = () => {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -28,7 +28,7 @@ const Projectgallery = () => {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1
                 }
             },
             {
@@ -54,20 +54,20 @@ const Projectgallery = () => {
 
 
                 <Slider {...settings}>
-                    <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px]">
-                        <Image src="/assets/pg3.png" width={298} height={570} alt="Project image" style={{ objectFit: "cover" }} />
-                    </div>
+                    
                     <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px]">
                         <Image src="/assets/pg2.png" width={298} height={370} alt="Project image" />
                     </div>
                     <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px]">
                         <Image src="/assets/pg3.png" width={298} height={370} alt="Project image" />
                     </div>
+                    
                     <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px]">
-                        <Image src="/assets/pg2.png" width={298} height={370} alt="Project image" />
+                        <Image src="/assets/pg55.png" width={298} height={370} alt="Project image" />
                     </div>
+
                     <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px]">
-                        <Image src="/assets/pg4.png" width={298} height={370} alt="Project image" />
+                        <Image src="/assets/pg6.png" width={298} height={370} alt="Project image" />
                     </div>
                     
 
