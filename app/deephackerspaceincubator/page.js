@@ -15,13 +15,13 @@ const Deephackerspace = () => {
                 <div className='flex justify-center py-16'>
                     <div className=''>
                         <div className='relative min-w-[400px] max-h-[700px]md:w-[900px] md:h-[500px]  lg:w-[1280px] lg:h-[400px] rounded-[100px]  '>
-                            <Image src="/assets/dhs.jpeg" layout={'fill'} objectFit="cover" alt="About Us Hero Image" />
+                            <Image src="/assets/incubator.jpeg" layout={'fill'} objectFit="cover" alt="About Us Hero Image" />
 
 
 
                             <div className='absolute bottom-[10%] left-[150px] z-50 max-w-[706px] '>
-                                <p className='font-[600] text-[80px] font-body  text-white leading-[80px]'>Deep Hackerspace</p>
-                                <p className=' text-white max-w-[717px] font-body font-[400] text-[16px] '>  Were creative expressions knows no bounds.</p>
+                                <p className='font-[600] text-[80px] font-body  text-white leading-[80px]'>Deepspace Incubator</p>
+                                <p className=' text-white max-w-[717px] font-body font-[400] text-[16px] '>  We offer a wide range of meticulously designed programs.</p>
                             </div>
                         </div>
 
@@ -31,9 +31,9 @@ const Deephackerspace = () => {
                 <div className='flex flex-wrap gap-7 justify-center'>
                     <div className='w-[657px]'>
                         <div>
-                            <p className='font-body font-[600] text-secondary-100 text-[16px]'>About</p>
-                            <h1 className='font-body font-[600] text-black text-[40px]'>What is deep Hackers Space?</h1>
-                            <p className='font-body font-[600] text-black text-[16px] max-w-[533px]'>These are services that are exclusive to members only. They include the use of making spaces + auxiliary tools for productive tinkering & hardware development. Only members have access.</p>
+                            <p className='font-body font-[600] text-secondary-100 text-[16px]'>Incubator</p>
+                            <h1 className='font-body font-[600] text-black text-[40px]'>What is Deepspace Incubator?</h1>
+                            <p className='font-body font-[600] text-black text-[16px] max-w-[533px]'>Our Incubator gives access to resources to get your hardware startup/products through the survival stage and market stability. Product Incubation is a strategic approach to co-imagine and co-build products with members of the DeepSpace Community in pushing their already existing product, or innovation within the DeepSpace facility.</p>
                             <button className='bg-secondary-100 w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
                                 <p className='text-white pt-3'>Join Us Today</p>
                                 <FaArrowRight className='text-white text-[18px] ml-2 mt-4' />

@@ -76,7 +76,7 @@ const Navbar = () => {
                                     </div>
 
                                     <div className="p-3">
-                                        <Link href="/community">
+                                        <Link href="/deephackerspaceincubator">
                                             <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
 
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
@@ -92,7 +92,7 @@ const Navbar = () => {
                                     </div>
 
                                     <div className="p-3">
-                                        <Link href="/community">
+                                        <Link href="/deepmarketspace">
                                             <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
 
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
@@ -108,7 +108,7 @@ const Navbar = () => {
                                     </div>
 
                                     <div className="p-3">
-                                        <Link href="/community">
+                                        <Link href="/deepspacelearning">
                                             <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
 
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
