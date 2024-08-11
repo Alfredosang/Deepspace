@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { FaArrowRight } from "react-icons/fa6"
 import ReactPlayer from 'react-player'
 import Blocktwo from '@/components/Blocktwo'
+import Courses from '@/components/Courses'
 
 const Deephackerspace = () => {
     return (
@@ -17,6 +18,7 @@ const Deephackerspace = () => {
                     <div className=''>
                         <div className='relative min-w-[400px] max-h-[700px]md:w-[900px] md:h-[500px]  lg:w-[1280px] lg:h-[400px] rounded-[100px]  '>
                             <Image src="/assets/learning.jpeg" layout={'fill'} objectFit="cover" alt="About Us Hero Image" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
 
 
 
@@ -74,7 +76,7 @@ const Deephackerspace = () => {
             </div>
 
             <div className=''>
-                <Blocktwo />
+                <Courses/>
             </div>
             <div className=' mx-auto'>
 

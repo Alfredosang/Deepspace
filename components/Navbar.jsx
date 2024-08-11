@@ -126,8 +126,8 @@ const Navbar = () => {
                             </PopoverPanel>
                         </Popover>
                     </li>
-                    <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Shop</li>
-                    <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Contact Us</li>
+                    <Link href="/shop"><li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Shop</li></Link>
+                    <Link href="/contactus"><li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Contact Us</li></Link>
 
 
 

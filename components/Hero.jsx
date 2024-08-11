@@ -87,6 +87,7 @@ const Hero = () => {
               </div> */}
 
               <div className='relative w-[368px] h-[214px] md:w-[900px] lg:w-[1336px] md:h-[483px] lg:h-[483px] rounded-r-[32px] overflow-hidden'>
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                 <Image src="/assets/heroOne.png" layout={'fill'} objectFit="cover" alt="Hero first image"  className='rounded-r-[32px]'/><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
               </div>
 
