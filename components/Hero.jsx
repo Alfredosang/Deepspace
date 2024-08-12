@@ -1,9 +1,14 @@
 "use client"
 import React from 'react';
-import Carousel from 'react-multi-carousel';
+// import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
 import { FaArrowRight } from "react-icons/fa6"
+import ImageSlider from './ImageSlider'
+// import '../styles/globals.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
 
 const Hero = () => {
 
@@ -26,12 +31,11 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='bg-black w-[300px] md:w-[900px] lg:w-[1336px] h-[483px] rounded-r-[32px] mt-4 ' style={{
-            paddingBottom: '30px',
-            position: 'relative'
-          }}>
+          <div className='bg-black w-[300px] md:w-[900px] lg:w-[1336px]  rounded-r-[32px] mt-4 '
+          // style={{paddingBottom: '30px', position: 'relative'}}
+          >
 
-            <Carousel
+            {/* <Carousel
               additionalTransfrom={0}
               // arrows
               autoPlay
@@ -82,30 +86,35 @@ const Hero = () => {
               slidesToSlide={1}
               swipeable
             >
-              {/* <div className='relative w-[300px] md:w-[900px] lg:w-[1336px] h-[483px]'>
-                <Image  src="/assets/heroOne.png" layout={'fill'} objectFit="cover"  alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
-              </div> */}
+
 
               <div className='relative w-[368px] h-[214px] md:w-[900px] lg:w-[1336px] md:h-[483px] lg:h-[483px] rounded-r-[32px] overflow-hidden'>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                <Image src="/assets/heroOne.png" layout={'fill'} objectFit="cover" alt="Hero first image"  className='rounded-r-[32px]'/><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                <Image src="/assets/heroOne.png" layout={'fill'} objectFit="cover" alt="Hero first image" className='rounded-r-[32px]' /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
               </div>
 
-            </Carousel>
+            </Carousel> */}
 
-            {/* <div className='relative w-[268px] h-[214px] md:w-[900px] lg:w-[1336px] md:h-[483px] lg:h-[483px]'>
-              <Image src="/assets/heroOne.png" layout={'fill'} objectFit="cover" alt="Hero first image" /><p className='absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px] '>Innovation is about taking risks and embracing failure as a stepping stone to success. It requires curiosity, creativity, and a willingness to experiment. Innovation is not limited to technology or science; it can also be seen in art, design, business, and social change.</p>
-            </div> */}
+            <ImageSlider />
+
+
 
           </div>
 
         </div>
 
         <div className='w-[95px] h-[238px] md:h-[660px] md:w-[530px] lg:w-[530px] lg:h-[660px] bg-black rounded-l-[32px] overflow-hidden '>
-          <Image src="/assets/heroTwo.png" width={530} height={660}  objectFit="cover" alt="Hero Second image" />
+          <div className='relative w-full h-full'>
+
+            <Image src="/assets/heroTwo.png" layout="fill" objectFit="cover" className="object-cover" alt="Hero Second image" />
+          </div>
         </div>
 
       </div>
+
+      {/* <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+        <ImageSlider />
+      </div> */}
 
     </div>
   )

@@ -1,11 +1,14 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6"
+import Image from 'next/image'
+import { RiHourglass2Fill } from "react-icons/ri";
+import { LuSettings2 } from "react-icons/lu";
 
 const Hackspace = () => {
     return (
         <div className='bg-primary h-[681px]'>
             <div className='container mx-auto align-middle'>
-                <div className='flex pt-[100px] justify-center align-middle'>
+                <div className='flex flex-wrap pt-[100px] justify-center items-center'>
 
 
                     <div>
@@ -15,14 +18,74 @@ const Hackspace = () => {
                             technology by creating a community where programmers, electronics, tinkerers,
                             and tech enthusiasts can meet to pursue their curiosity and build products.</p>
 
-                        <button className='border-[0.5px] border-red-400 w-[155px] h-[56px] rounded-full flex justify-center align-middle py-4  space-x-2 '><p className='text-white font-body font-[700] text-[16px] '>Sign In</p>
+                        <button className='border-[0.5px] border-red-400 w-[155px] h-[56px] rounded-full flex justify-center items-center py-4  space-x-2 mt-3'><p className='text-white font-body font-[700] text-[16px] '>Sign In</p>
                             <FaArrowRight className='text-white text-[24px] pt-1' />
                         </button>
 
                     </div>
 
 
-                    <div className=''>
+                    <div className=' relative flex gap-2 justify-center items-center'>
+                        <div>
+                            <div className='bg-black md:w-[350px] md:h-[271px] rounded-[16px] overflow-hidden border-solid border-secondary-100 border-[2px]'>
+                                <div className='relative w-full h-full'>
+
+                                    <Image src="/assets/IM1.jpeg" layout="fill" objectFit="cover" className="object-cover" alt="IM1" />
+                                </div>
+                            </div>
+                            <div className='flex gap-2 pt-3'>
+                                <div className='w-[170.2px] h-[40px] rounded-full border-solid border-white border-[2px] flex gap-2 items-center justify-center'>
+                                    <div className='w-[24px] h-[24px] bg-secondary-100 rounded-full flex items-center justify-center'>
+                                        <RiHourglass2Fill className='text-white' />
+                                    </div>
+                                    <p className='text-white font-body text-[12px] font-[600]'>Deepspace Incubator</p>
+                                </div>
+                                <div className='bg-black md:w-[172px] md:h-[117px] rounded-[16px] overflow-hidden'>
+                                    <div className='relative w-full h-full'>
+
+                                        <Image src="/assets/IM2.jpeg" layout="fill" objectFit="cover" className="object-cover filter grayscale" alt="IM2" />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className='flex flex-col gap-4'>
+                            <div className='bg-black md:w-[172px] md:h-[139px] rounded-[16px] overflow-hidden'>
+                                <div className='relative w-full h-full'>
+
+                                    <Image src="/assets/IM3.jpeg" layout="fill" objectFit="cover" className="object-cover filter grayscale" alt="IM3" />
+                                </div>
+                            </div>
+
+                            <div className='w-[170.2px] h-[40px] rounded-full border-solid border-white border-[2px] flex gap-2 items-center justify-center'>
+                                <div className='w-[24px] h-[24px] bg-secondary-100 rounded-full flex items-center justify-center'>
+                                    <LuSettings2 className='text-white' />
+                                </div>
+                                <p className='text-white font-body text-[12px] font-[600]'>Deep Space Learning</p>
+                            </div>
+
+                            <div className='bg-black md:w-[172px] md:h-[139px] rounded-[16px] overflow-hidden'>
+                                <div className='relative w-full h-full'>
+
+                                    <Image src="/assets/IM4.jpeg" layout="fill" objectFit="cover" className="object-cover filter grayscale" alt="IM4" />
+                                </div>
+                            </div>
+
+                            <div className='w-[170.2px] h-[40px] rounded-full border-solid border-white border-[2px] flex gap-2 items-center justify-center'>
+                                <div className='w-[24px] h-[24px] bg-secondary-100 rounded-full flex items-center justify-center'>
+                                    <LuSettings2 className='text-white' />
+                                </div>
+                                <p className='text-white font-body text-[12px] font-[600]'>Deep Makerspace</p>
+                            </div>
+                        </div>
+
+                        <div className=' absolute top-[-10px] right-[120px] w-[170.2px] h-[40px] rounded-full border-solid bg-white border-secondary-100 border-[1px] flex gap-2 items-center justify-center'>
+                                <div className='w-[24px] h-[24px] bg-secondary-100 rounded-full flex items-center justify-center'>
+                                    <LuSettings2 className='text-white' />
+                                </div>
+                                <p className='text-black font-body text-[12px] font-[600]'>Deep Makerspace</p>
+                            </div>
 
                     </div>
 

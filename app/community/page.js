@@ -51,22 +51,67 @@ const Community = () => {
                 </div>
 
                 <div className='flex flex-wrap gap-7  my-16'>
-                    <div className='bg-black w-[220px] h-[145px] rounded-md'></div>
+                    <div className='bg-black w-[220px] h-[145px] rounded-md overflow-hidden'>
+                        <div className='relative w-full h-full'>
+                            <Image src="/assets/herohero.png" layout="fill" objectFit="cover" className="object-cover" alt="" />
+                        </div>
+
+                    </div>
                     <div className='flex flex-col gap-5 w-[220px] h-[145px]'>
-                        <div className='bg-black w-[220px] h-[81px] rounded-md'></div>
-                        <div className='bg-black w-[220px] h-[50px] rounded-md'></div>
+                        <div className='bg-black w-[220px] h-[81px] rounded-md overflow-hidden'>
+                            <div className='relative w-full h-full'>
+
+                                <Image src="/assets/workman.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                            </div>
+                        </div>
+                        <div className='bg-black w-[220px] h-[50px] rounded-md overflow-hidden'>
+                            <div className='relative w-full h-full'>
+
+                                <Image src="/assets/workman2.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                            </div>
+                        </div>
                     </div>
 
-                    <div className='bg-black w-[220px] h-[145px] rounded-md'></div>
-                    <div className='flex flex-col gap-5 w-[220px] h-[145px]'>
-                        <div className='bg-black w-[220px] h-[81px] rounded-md'></div>
-                        <div className='bg-black w-[220px] h-[50px] rounded-md'></div>
+                    <div className='bg-black w-[220px] h-[145px] rounded-md overflow-hidden'>
+                        <div className='relative w-full h-full'>
+                            <Image src="/assets/heroTwo.png" layout="fill" objectFit="cover" className="object-cover " alt="" />
+                        </div>
                     </div>
 
-                    <div className='bg-black w-[220px] h-[145px] rounded-md'></div>
                     <div className='flex flex-col gap-5 w-[220px] h-[145px]'>
-                        <div className='bg-black w-[220px] h-[81px] rounded-md'></div>
-                        <div className='bg-black w-[220px] h-[50px] rounded-md'></div>
+                        <div className='bg-black w-[220px] h-[81px] rounded-md overflow-hidden'>
+                            <div className='relative w-full h-full'>
+
+                                <Image src="/assets/workman2.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                            </div>
+                        </div>
+                        <div className='bg-black w-[220px] h-[50px] rounded-md overflow-hidden'>
+                            <div className='relative w-full h-full'>
+
+                                <Image src="/assets/herohero.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='bg-black w-[220px] h-[145px] rounded-md overflow-hidden'>
+                        <div className='relative w-full h-full'>
+
+                            <Image src="/assets/workman.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                        </div>
+                    </div>
+                    <div className='flex flex-col gap-5 w-[220px] h-[145px]'>
+                        <div className='bg-black w-[220px] h-[81px] rounded-md overflow-hidden'>
+                            <div className='relative w-full h-full'>
+
+                                <Image src="/assets/workman2.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                            </div>
+                        </div>
+                        <div className='bg-black w-[220px] h-[50px] rounded-md overflow-hidden'>
+                            <div className='relative w-full h-full'>
+
+                                <Image src="/assets/heroTwo.png" layout="fill" objectFit="cover" className="object-cover " alt="IM2" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
