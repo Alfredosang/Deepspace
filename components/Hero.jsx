@@ -16,7 +16,7 @@ const Hero = () => {
 
 
   return (
-    <div className=' pt-[90px] md:pt-[170px]'>
+    <div className=' pt-[120px] md:pt-[170px]'>
       <div className='flex flex-col-reverse gap-3 md:gap-0 md:flex-col '>
 
         <div className=' md:mx-[150px] flex flex-col md:flex-row lg:flex-row justify-start gap-2 px-3 md:px-0'>
@@ -44,7 +44,7 @@ const Hero = () => {
 
           </div>
 
-          <div className='w-[115px] h-[238px] md:h-[660px] md:w-[530px] lg:w-[530px] lg:h-[660px] bg-black rounded-l-[32px] overflow-hidden'>
+          <div className='w-[115px] h-[238px] md:h-[660px] md:w-[530px] lg:w-[530px] lg:h-[660px] bg-black rounded-l-[32px] overflow-hidden ml-5 md:ml-0'>
             <div className='relative w-full h-full'>
 
               <Image src="/assets/heroTwo.png" layout="fill" objectFit="cover" className="object-cover" alt="Hero Second image" />
