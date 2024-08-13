@@ -54,7 +54,7 @@ const ImageSlider = () => {
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent  rounded-r-[32px] overflow-hidden"></div>
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-r-[32px] overflow-hidden">
-              <h2 className="absolute text-white bottom-[10%]  px-1 md:px-0 left-2 md:left-[150px] z-50 sm:w-[187px] sm:h-[126px] max-w-[600px] font-body font-[400] text-[12px] md:text-[14px]">
+              <h2 className="absolute text-white bottom-[10%]  md:bottom-[10%]  px-3  md:px-0 left-2 md:left-[150px] lg:left-[150px] z-50 w-[187px] h-[170px] md:w-[600px]  max-w-[600px] font-body font-[400] text-[12px] md:text-[14px]">
                 {image.text}
               </h2>
             </div>

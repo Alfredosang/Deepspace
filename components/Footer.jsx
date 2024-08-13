@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-[100%] h-[0.5px] bg-white mt-16 mb-7 '></div>
+                <div className='w-full h-[0.5px] bg-white mt-16 mb-7 '></div>
 
                 <div className='flex flex-wrap justify-start  gap-10 md:flex-row md:flex-wrap md:gap-[100px] animate-slideup mx-3'>
                     <div className='max-w-[343px] md:max-w-[386px]'>
@@ -101,7 +101,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className='w-[100%] h-[0.5px] bg-white mt-7 mb-7 '></div>
+                <div className='w-full h-[0.5px] bg-white mt-7 mb-7 '></div>
 
                 <div className='mx-2 flex  flex-col justify-center md:flex-row md:justify-between '> 
                     <div><p className='font-body text-white text-[12px] md:text-[14px]'>Assetium Capital Management Ltd © 2023. All Rights Reserved.</p></div>
