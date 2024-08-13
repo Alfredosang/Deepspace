@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center '>
           <div>
 
             <div className='bg-black w-[268px] h-[214px]  md:h-[483px] md:w-[900px] lg:w-[1336px]  rounded-r-[32px] mt-4 overflow-hidden '>
@@ -44,7 +44,7 @@ const Hero = () => {
 
           </div>
 
-          <div className='w-[130px] h-[238px] md:h-[660px] md:w-[530px] lg:w-[530px] lg:h-[660px] bg-black rounded-l-[32px] overflow-hidden ml-3 md:ml-0'>
+          <div className='w-[130px] h-[238px] md:h-[660px] md:w-[530px] lg:w-[530px] lg:h-[660px] bg-black rounded-l-[32px] overflow-hidden '>
             <div className='relative w-full h-full'>
 
               <Image src="/assets/heroTwo.png" layout="fill" objectFit="cover" className="object-cover" alt="Hero Second image" />
