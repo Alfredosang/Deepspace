@@ -130,7 +130,7 @@ const Navbar = () => {
 
                 <ul className="flex text-gray-500 text-sm list-none space-x-3 font-body">
                     <li className="hover:text-secondary-100 cursor-pointer">
-                        <HiOutlineShoppingCart size={18} />
+                        <HiOutlineShoppingCart size={18}  className='hidden md:inline'/>
                         <span className="hidden md:inline">Cart</span>
                     </li>
                     <li className="hover:text-secondary-100 cursor-pointer hidden md:flex items-center">

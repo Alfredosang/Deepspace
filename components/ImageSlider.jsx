@@ -42,7 +42,7 @@ const ImageSlider = () => {
     <div className="relative w-full h-[483px] ">
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="relative w-full h-[483px]">
+          <div key={index} className="relative w-full h-[214px] md:h-[483px]">
             <div className="relative w-full h-full rounded-r-[32px] overflow-hidden">
               <Image
                 src={image.src}
@@ -54,7 +54,7 @@ const ImageSlider = () => {
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent  rounded-r-[32px] overflow-hidden"></div>
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-r-[32px] overflow-hidden">
-              <h2 className="absolute text-white bottom-[10%] left-[150px] z-50  max-w-[600px] font-body font-[400] text-[14px]">
+              <h2 className="absolute text-white bottom-[10%]  px-1 md:px-0 left-2 md:left-[150px] z-50 sm:w-[187px] sm:h-[126px] max-w-[600px] font-body font-[400] text-[12px] md:text-[14px]">
                 {image.text}
               </h2>
             </div>
