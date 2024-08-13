@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <div className='container'>
-            <nav className="flex justify-between items-center px-7 md:px-32 fixed z-10 h-[100px] bg-white w-full mx-auto">
+            <nav className="flex justify-between items-center px-7 md:px-32 fixed z-10 h-[80px] md:h-[100px] bg-white w-full mx-auto">
                 <Link href="/">
                     <Image src="/assets/deepspaceLogo.png" width={180} height={70} alt="Logo" />
                 </Link>
