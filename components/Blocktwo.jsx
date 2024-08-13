@@ -33,7 +33,7 @@ const courseCard = [
 
 const Blocktwo = () => {
     return (
-        <div className='container mx-auto sm:mb-[100px] pb-[100px]  pt-[70px] px-4 md:px-10 md:max-w-[1600px]'>
+        <div className='container mx-auto sm:mb-[100px] pb-[0px]  pt-[70px] px-4 md:px-10 md:max-w-[1600px]'>
 
             <div>
                 <div className=' mb-[5px]'>
