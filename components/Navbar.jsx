@@ -1,46 +1,39 @@
-"use client"
-import React from 'react'
-import '../components/Navbar.css'
-import { HiOutlineShoppingCart } from "react-icons/hi2";
-import { IoIosSearch } from "react-icons/io";
-import { IoIosArrowDown } from "react-icons/io";
+"use client";
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { HiOutlineShoppingCart } from "react-icons/hi2";
+import { IoIosSearch, IoIosArrowDown } from "react-icons/io";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { useState } from 'react';
-// import { Popover, Transition } from '@headlessui/react'
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
-// import { PiShoppingCart } from "react-icons/pi";
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react';
 
 const Navbar = () => {
+    const [navOpen, setNavOpen] = useState(false);
 
-    // const [nav, setNav] = useState(false);
+    const toggleNav = () => {
+        setNavOpen(!navOpen);
+    };
+
     return (
         <div>
-            <nav className='flex  justify-between  px-7 md:px-32 items-center fixed z-10  h-[100px] bg-white w-full  mx-auto'>
-                {/* <p className='font-bold font-body text-lg'>Deepspace</p> */}
-                <Link href="/"><Image src="/assets/deepspaceLogo.png" width={190} height={80} alt="Logo" /></Link>
+            <nav className="flex justify-between items-center px-7 md:px-32 fixed z-10 h-[100px] bg-white w-full mx-auto">
+                <Link href="/">
+                    <Image src="/assets/deepspaceLogo.png" width={190} height={80} alt="Logo" />
+                </Link>
 
-                <ui className='hidden md:flex text-gray-500 text-sm list-none space-x-3 font-body'>
-                    <Link href="/about">
-                        <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>About Us</li>
-                    </Link>
-
-                    <Link href="/community">
-                        <li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Community</li>
-                    </Link>
-                    {/* <li className='flex justify-items-bottom hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'><p>Programs</p> <IoIosArrowDown size={18} /></li> */}
-                    <li>
-
+                <ul className="hidden md:flex text-gray-500 text-sm list-none space-x-3 font-body">
+                    <li className="hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100">
+                        <Link href="/about">About Us</Link>
+                    </li>
+                    <li className="hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100">
+                        <Link href="/community">Community</Link>
+                    </li>
+                    <li className="hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100">
                         <Popover>
-                            <PopoverButton className=" relative border-[0px] outline-none flex justify-items-bottom hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100 ">
+                            <PopoverButton className="flex items-center border-[0px] outline-none">
                                 Programs <IoIosArrowDown size={18} />
                             </PopoverButton>
-                            <PopoverPanel
-                                transition
-                                anchor="bottom"
-                                className=" rounded-xl bg-white h-[750px] w-[400px] text-sm/6 transition duration-200 ease-in-out  pt-7"
-                            >
+                            <PopoverPanel className="absolute mt-3 bg-white shadow-lg rounded-xl p-4 h-[750px] w-[90vw] md:w-[400px]">
                                 <div className='flex flex-col gap-5 space-y-[100px]' >
 
                                     <div className="p-3">
@@ -123,39 +116,60 @@ const Navbar = () => {
                                         </Link>
                                     </div>
                                 </div>
+
                             </PopoverPanel>
                         </Popover>
                     </li>
-                    <Link href="/shop"><li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Shop</li></Link>
-                    <Link href="/contactus"><li className='hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100'>Contact Us</li></Link>
-
-
-
-                </ui>
-                <ui className='flex text-gray-500 text-sm list-none space-x-3 font-body'>
-                    <li className=' duration-300 cursor-pointer hover:text-secondary-100'>
-                        <div className='flex justify-items-center space-x-1 '>
-                            <HiOutlineShoppingCart size={18} />
-                            <p className='hidden md:flex'>Cart</p>
-                        </div>
-
+                    <li className="hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100">
+                        <Link href="/shop">Shop</Link>
                     </li>
-                    <li className=' duration-300 cursor-pointer hover:text-secondary-100'>
-
-
-
-                        <div className='hidden md:flex justify-items-center space-x-1 '>
-                            <IoIosSearch size={18} />
-                            <p>
-                                Search
-                            </p>
-                        </div>
+                    <li className="hover:scale-105 duration-300 cursor-pointer hover:text-secondary-100">
+                        <Link href="/contactus">Contact Us</Link>
                     </li>
-                </ui>
+                </ul>
+
+                <ul className="flex text-gray-500 text-sm list-none space-x-3 font-body">
+                    <li className="hover:text-secondary-100 cursor-pointer">
+                        <HiOutlineShoppingCart size={18} />
+                        <span className="hidden md:inline">Cart</span>
+                    </li>
+                    <li className="hover:text-secondary-100 cursor-pointer hidden md:flex items-center">
+                        <IoIosSearch size={18} />
+                        <span>Search</span>
+                    </li>
+                    <li className="md:hidden cursor-pointer" onClick={toggleNav}>
+                        {navOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+                    </li>
+                </ul>
+
+                {/* Mobile Menu */}
+                <div className={`md:hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 transition-transform transform ${navOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                    <div className="bg-white w-64 h-full shadow-lg flex flex-col p-5">
+                        <div className="flex justify-between items-center">
+                            <Link href="/" onClick={toggleNav}>
+                                <Image src="/assets/deepspaceLogo.png" width={150} height={60} alt="Logo" />
+                            </Link>
+                            <FaTimes size={24} className="cursor-pointer" onClick={toggleNav} />
+                        </div>
+                        <ul className="flex flex-col mt-10 space-y-4 text-gray-500 text-lg font-body">
+                            <li>
+                                <Link href="/about" onClick={toggleNav}>About Us</Link>
+                            </li>
+                            <li>
+                                <Link href="/community" onClick={toggleNav}>Community</Link>
+                            </li>
+                            <li>
+                                <Link href="/shop" onClick={toggleNav}>Shop</Link>
+                            </li>
+                            <li>
+                                <Link href="/contactus" onClick={toggleNav}>Contact Us</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-
         </div>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
