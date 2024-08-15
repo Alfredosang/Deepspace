@@ -11,7 +11,7 @@ const Contact = () => {
         <div>
             <div className='container mx-auto pt-[100px] md:pt-[130px]'>
                 <div className='flex justify-center py-16'>
-                    <div className='relative w-full h-[250px] sm:h-[400px] md:h-[400px] lg:h-[400px] rounded-[20px] overflow-hidden'>
+                    <div className='relative w-[380px] md:w-[1400px] h-[250px] sm:h-[400px] md:h-[400px] lg:h-[400px] rounded-[20px] overflow-hidden'>
                         <Image
                             src="/assets/cs.jpeg"
                             fill
@@ -19,7 +19,7 @@ const Contact = () => {
                             alt="Contact Us Hero Image"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                        <div className='absolute bottom-[10%] left-[10%] md:left-[15%] lg:left-[20%] z-50 max-w-[90%] md:max-w-[70%]'>
+                        <div className='absolute bottom-[10%] left-[10%] md:left-[15%] lg:left-[20%] z-50 max-w-[90%] md:max-w-[90%]'>
                             <p className='font-[600] text-[32px] sm:text-[48px] md:text-[60px] lg:text-[80px] font-body text-white leading-tight'>
                                 Contact Us
                             </p>
