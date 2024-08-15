@@ -21,7 +21,7 @@ const ContactForm = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className=" mx-auto p-4">
+        <form onSubmit={handleSubmit} className=" mx-auto  p-4">
             <div>
                 <p className='font-body font-[600] text-[40px]'>Get In Touch</p>
             </div>
@@ -38,7 +38,7 @@ const ContactForm = () => {
                         value={formData.firstName}
                         placeholder="John"
                         onChange={handleChange}
-                        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
+                        className="mt-1 min-w-[280px] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
                         required
                     />
                 </div>
@@ -53,7 +53,7 @@ const ContactForm = () => {
                         value={formData.lastName}
                         placeholder="Doe"
                         onChange={handleChange}
-                        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
+                        className="mt-1 min-w-[280px] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
                         required
                     />
                 </div>
@@ -71,7 +71,7 @@ const ContactForm = () => {
                         placeholder="+234"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
+                        className="mt-1 min-w-[280px] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
                         required
                     />
                 </div>
@@ -86,7 +86,7 @@ const ContactForm = () => {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="@com"
-                        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
+                        className="mt-1 min-w-[280px] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
                         required
                     />
                 </div>
@@ -101,12 +101,12 @@ const ContactForm = () => {
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Say something"
-                    className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
+                    className="mt-1 w-[280px] md:w-[590px] block  px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary-100 focus:border-secondary-100 sm:text-sm"
                     rows="4"
                     required
                 ></textarea>
             </div>
-            <div className='flex justify-end'>
+            <div className='flex '>
                 <button
                     type="submit"
                     className="rounded-full w-[192px] h-[48px] bg-secondary-100 text-white py-3 px-4  hover:bg-secondary-100 focus:outline-none focus:ring-2 focus:ring-secondary-100  font-body font-[500] text-[14px] flex align-middle "

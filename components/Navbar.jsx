@@ -34,17 +34,14 @@ const Navbar = () => {
                                 Programs <IoIosArrowDown size={18} />
                             </PopoverButton>
                             <PopoverPanel className="absolute mt-3 bg-white shadow-lg rounded-xl p-4 h-[750px] w-[90vw] md:w-[400px]">
-                                <div className='flex flex-col gap-5 space-y-[100px]' >
+                                <div className='flex flex-col gap-5 space-y-[100px]'>
 
                                     <div className="p-3">
                                         <Link href="/">
-                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
-
+                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
-                                                    <Image src="/assets/m1.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px] ' />
+                                                    <Image src="/assets/m1.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px]' />
                                                 </div>
-
-
                                                 <div className='pt-2'>
                                                     <p className='font-body font-[500] text-[16px] ml-2 group-hover:text-red-500'>Home</p>
                                                 </div>
@@ -54,15 +51,12 @@ const Navbar = () => {
 
                                     <div className="p-3">
                                         <Link href="/deephackerspace">
-                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
-
+                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
-                                                    <Image src="/assets/m2.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px] ' />
+                                                    <Image src="/assets/m2.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px]' />
                                                 </div>
-
-
                                                 <div className='pt-2'>
-                                                    <p className='font-body font-[500] text-[16px] ml-2  group-hover:text-red-500'>Deep Hacker Space</p>
+                                                    <p className='font-body font-[500] text-[16px] ml-2 group-hover:text-red-500'>Deep Hacker Space</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -70,15 +64,12 @@ const Navbar = () => {
 
                                     <div className="p-3">
                                         <Link href="/deephackerspaceincubator">
-                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
-
+                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
-                                                    <Image src="/assets/m3.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px] ' />
+                                                    <Image src="/assets/m3.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px]' />
                                                 </div>
-
-
                                                 <div className='pt-2'>
-                                                    <p className='font-body font-[500] text-[16px] ml-2  group-hover:text-red-500'>Deepspace Incubator</p>
+                                                    <p className='font-body font-[500] text-[16px] ml-2 group-hover:text-red-500'>Deepspace Incubator</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -86,15 +77,12 @@ const Navbar = () => {
 
                                     <div className="p-3">
                                         <Link href="/deepmarketspace">
-                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
-
+                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
-                                                    <Image src="/assets/m5.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px] ' />
+                                                    <Image src="/assets/m5.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px]' />
                                                 </div>
-
-
                                                 <div className='pt-2'>
-                                                    <p className='font-body font-[500] text-[16px] ml-2  group-hover:text-red-500'>Deep Makerspace</p>
+                                                    <p className='font-body font-[500] text-[16px] ml-2 group-hover:text-red-500'>Deep Makerspace</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -102,21 +90,17 @@ const Navbar = () => {
 
                                     <div className="p-3">
                                         <Link href="/deepspacelearning">
-                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px]  rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
-
+                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
-                                                    <Image src="/assets/m4.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px] ' />
+                                                    <Image src="/assets/m4.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px]' />
                                                 </div>
-
-
                                                 <div className='pt-2'>
-                                                    <p className='font-body font-[500] text-[16px] ml-2  group-hover:text-red-500'>Deepspace Learning</p>
+                                                    <p className='font-body font-[500] text-[16px] ml-2 group-hover:text-red-500'>Deepspace Learning</p>
                                                 </div>
                                             </div>
                                         </Link>
                                     </div>
                                 </div>
-
                             </PopoverPanel>
                         </Popover>
                     </li>
@@ -130,7 +114,7 @@ const Navbar = () => {
 
                 <ul className="flex text-gray-500 text-sm list-none space-x-3 font-body">
                     <li className="hover:text-secondary-100 cursor-pointer">
-                        <HiOutlineShoppingCart size={18}  className='hidden md:inline'/>
+                        <HiOutlineShoppingCart size={18} className='hidden md:inline' />
                         <span className="hidden md:inline">Cart</span>
                     </li>
                     <li className="hover:text-secondary-100 cursor-pointer hidden md:flex items-center">
@@ -157,6 +141,30 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link href="/community" onClick={toggleNav}>Community</Link>
+                            </li>
+                            <li>
+                                <Popover>
+                                    <PopoverButton className="flex justify-between items-center outline-none w-full">
+                                        Programs <IoIosArrowDown size={18} />
+                                    </PopoverButton>
+                                    <PopoverPanel className="mt-2 flex flex-col space-y-3">
+                                        <Link href="/" onClick={toggleNav} className="ml-5 text-sm">
+                                            Home
+                                        </Link>
+                                        <Link href="/deephackerspace" onClick={toggleNav} className="ml-5 text-sm">
+                                            Deep Hacker Space
+                                        </Link>
+                                        <Link href="/deephackerspaceincubator" onClick={toggleNav} className="ml-5 text-sm">
+                                            Deepspace Incubator
+                                        </Link>
+                                        <Link href="/deepmarketspace" onClick={toggleNav} className="ml-5 text-sm">
+                                            Deep Makerspace
+                                        </Link>
+                                        <Link href="/deepspacelearning" onClick={toggleNav} className="ml-5 text-sm">
+                                            Deepspace Learning
+                                        </Link>
+                                    </PopoverPanel>
+                                </Popover>
                             </li>
                             <li>
                                 <Link href="/shop" onClick={toggleNav}>Shop</Link>

@@ -20,17 +20,17 @@ const Footer = () => {
                         </p>
 
                         <div className='flex flex-wrap gap-4 md:gap-6 mt-5'>
-                            <div className='border-[0.5px] border-gray-500 h-[40px] w-auto md:w-[145px] rounded-full flex items-center justify-center'>
+                            <div className='border-[0.5px] border-gray-500 h-[40px] w-[145px] rounded-full flex items-center justify-center'>
                                 <Image src='/assets/tick.png' width={20} height={20} alt='Tick icon' />
                                 <p className='text-white font-body text-[12px] md:text-[12px] ml-2'>Flexible Learning</p>
                             </div>
 
-                            <div className='border-[0.5px] border-gray-500 h-[40px] w-auto md:w-[190px] rounded-full flex items-center justify-center'>
+                            <div className='border-[0.5px] border-gray-500 h-[40px] w-[190px] rounded-full flex items-center justify-center'>
                                 <Image src='/assets/tick.png' width={20} height={20} alt='Tick icon' />
                                 <p className='text-white font-body text-[12px] md:text-[12px] ml-2'>Continuous improvement</p>
                             </div>
 
-                            <div className='border-[0.5px] border-gray-500 h-[40px] w-auto md:w-[155px] rounded-full flex items-center justify-center'>
+                            <div className='border-[0.5px] border-gray-500 h-[40px] w-[155px] rounded-full flex items-center justify-center'>
                                 <Image src='/assets/tick.png' width={20} height={20} alt='Tick icon' />
                                 <p className='text-white font-body text-[12px] md:text-[12px] ml-2'>Support For Success</p>
                             </div>
