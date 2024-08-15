@@ -41,7 +41,7 @@ const Deephackerspace = () => {
                         <h1 className='font-body font-[600] text-black text-[24px] sm:text-[32px] lg:text-[40px]'>
                             What is Deepspace Learning?
                         </h1>
-                        <div className='font-body font-[400] text-black text-[14px] sm:text-[16px] lg:text-[18px] max-w-[70%]'>
+                        <div className='font-body font-[400] text-black text-[14px] sm:text-[16px] lg:text-[18px] max-w-[90%]'>
                             <p>
                                 Position yourself to become a learned powerhouse in advanced digital
                                 manufacturing skills. Engineers, architects, draftsmen, designers, advertisers, interior designers, or anyone

@@ -71,8 +71,8 @@ const Footer = () => {
 
                     <div className='space-y-2'>
                         <p className='text-white font-[700] text-[20px] font-body'>Get In Touch</p>
-                        <p className='text-white font-[400] text-[16px] font-body'>+234 90 398 510 34</p>
-                        <p className='text-white font-[400] text-[16px] font-body'>Info@assetium.com</p>
+                        <p className='text-white font-[400] text-[16px] font-body'>+234 803 777 4576</p>
+                        <p className='text-white font-[400] text-[16px] font-body'>Deepspace.africa@gmail.com</p>
                     </div>
 
                     <div className='space-y-2'>
@@ -87,7 +87,7 @@ const Footer = () => {
                 <div className='w-full h-[0.5px] bg-white my-8'></div>
 
                 <div className='flex flex-col md:flex-row justify-between items-center'>
-                    <p className='font-body text-white text-[12px] md:text-[14px]'>Assetium Capital Management Ltd © 2023. All Rights Reserved.</p>
+                    <p className='font-body text-white text-[12px] md:text-[14px]'>Deepspace © 2024 . All Rights Reserved.</p>
                     <div className='flex space-x-2 mt-4 md:mt-0'>
                         <FaFacebookF className='text-white text-[20px] md:text-[24px]' />
                         <FaLinkedinIn className='text-white text-[20px] md:text-[24px]' />

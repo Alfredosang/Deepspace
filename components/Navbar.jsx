@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <div className='container'>
-            <nav className="flex justify-between items-center px-7 md:px-32 fixed z-10 h-[80px] md:h-[100px] bg-white w-full mx-auto">
+            <nav className="flex justify-between items-center px-7 md:px-32 fixed z-[9999] h-[80px] md:h-[100px] bg-white w-full mx-auto">
                 <Link href="/">
                     <Image src="/assets/deepspaceLogo.png" width={180} height={70} alt="Logo" />
                 </Link>
@@ -33,12 +33,12 @@ const Navbar = () => {
                             <PopoverButton className="flex items-center border-[0px] outline-none">
                                 Programs <IoIosArrowDown size={18} />
                             </PopoverButton>
-                            <PopoverPanel className="absolute mt-3 bg-white shadow-lg rounded-xl p-4 h-[750px] w-[90vw] md:w-[400px]">
+                            <PopoverPanel className="absolute mt-3 bg-white shadow-lg rounded-xl p-4 h-[750px] w-[90vw] md:w-[400px] z-[10000]">
                                 <div className='flex flex-col gap-5 space-y-[100px]'>
-
+                                    {/* Program Links */}
                                     <div className="p-3">
                                         <Link href="/">
-                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute z-100 hover:bg-red-50'>
+                                            <div className='flex flex-col w-[350px] md:w-[360px] h-[130px] rounded-[20px] px-[20px] py-[24px] border-[1px] group-hover:border-gray-200 group group-hover:h-[397px] duration-500 absolute hover:bg-red-50'>
                                                 <div className='w-[310px] h-[30px] bg-black rounded-[4px] group-hover:h-[65px] overflow-hidden duration-500'>
                                                     <Image src="/assets/m1.png" width={310} height={152} style={{ objectFit: "contain" }} alt="Course picture" className='rounded-[4px]' />
                                                 </div>
@@ -48,6 +48,7 @@ const Navbar = () => {
                                             </div>
                                         </Link>
                                     </div>
+
 
                                     <div className="p-3">
                                         <Link href="/deephackerspace">
@@ -101,6 +102,7 @@ const Navbar = () => {
                                         </Link>
                                     </div>
                                 </div>
+
                             </PopoverPanel>
                         </Popover>
                     </li>
@@ -127,7 +129,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Mobile Menu */}
-                <div className={`md:hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 transition-transform transform ${navOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className={`md:hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 transition-transform transform ${navOpen ? 'translate-x-0' : 'translate-x-full'} z-[9998]`}>
                     <div className="bg-white w-64 h-full shadow-lg flex flex-col p-5">
                         <div className="flex justify-between items-center">
                             <Link href="/" onClick={toggleNav}>
@@ -176,7 +178,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+        </div >
     );
 }
 

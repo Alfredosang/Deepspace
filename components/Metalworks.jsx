@@ -76,7 +76,7 @@ const Metalworks = () => {
                             <p className='font-body font-[600] text-secondary-100 text-[16px]'>Our Services</p>
                             <h1 className='font-body font-[600] text-black text-[40px] md:text-[64px]'>Metal Work</h1>
                             <p className='font-body font-[600] text-black text-[14px] md:text-[16px] max-w-[533px] '>Are you Looking for expert fabrication and welding services to create machinery, tools, or custom parts? At DeepSpace Africa, we specialize in providing precise solutions tailored to your needs.</p>
-                            <Link href='/workorderrequest'>
+                            <Link href='https://forms.gle/8k5mpyM7K3oNN9sTA'>
                                 <button className='bg-secondary-100 w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
                                     <p className='text-white pt-3'>Request Now</p>
                                     <FaArrowRight className='text-white text-[18px] ml-2 mt-4' />
@@ -101,7 +101,7 @@ const Metalworks = () => {
                             <p className='font-body font-[600] text-secondary-100 text-[16px]'>Our Services</p>
                             <h1 className='font-body font-[600] text-black text-[40px] md:text-[64px]'>Wood Work</h1>
                             <p className='font-body font-[600] text-black text-[14px] md:text-[16px] max-w-[533px]'>Are you Looking for expert fabrication and Are you looking to transform your space with custom woodwork! At DeepSpace Africa, we turn your woodwork dreams into reality. Our skilled craftsmen are ready to create stunning pieces tailored to your vision.From beautiful benches and tables to unique chairs, shelves, and wall art, we bring your designs to life with care and precision.</p>
-                            <Link href='/workorderrequest'>
+                            <Link href='https://forms.gle/8k5mpyM7K3oNN9sTA'>
                                 <button className='bg-secondary-100 w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
                                     <p className='text-white pt-3'>Request Now</p>
                                     <FaArrowRight className='text-white text-[18px] ml-2 mt-4' />
@@ -126,7 +126,7 @@ const Metalworks = () => {
                             <p className='font-body font-[600] text-secondary-100 text-[16px]'>Our Services</p>
                             <h1 className='font-body font-[600] text-black text-[40px] md:text-[64px]'>3D Printing</h1>
                             <p className='font-body font-[600] text-black text-[14px] md:text-[16px] max-w-[533px]'>Do you have a project in mind? Need custom gifts like keyholders, figurines, phone stands, or other 3D printed items in any quantity? Do you need to 3D print your school projects or broken machine parts? Our 3D printing services enable quick turnaround times, precise details, and cost-effective production.</p>
-                            <Link href='/workorderrequest'>
+                            <Link href='https://forms.gle/9PevUJGFeL8fz4ZB7'>
                                 <button className='bg-secondary-100 w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
                                     <p className='text-white pt-3'>Request Now</p>
                                     <FaArrowRight className='text-white text-[18px] ml-2 mt-4' />
