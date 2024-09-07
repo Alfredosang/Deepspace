@@ -30,7 +30,7 @@ const Blockone = () => {
                     </div>
 
                     <div className=' w-[320px] h-[280px]  md:w-[699px] md:h-[424px] bg-black rounded-[24px] justify-center items-center '>
-                        <ReactPlayer url='https://youtu.be/Et7TTfwvBFo?si=FfX9CmU_camj3ynr' height='100%' width='100%' />
+                        <ReactPlayer url='https://www.youtube.com/watch?v=L0ZkrSagL9w' height='100%' width='100%' />
                     </div>
                 </div>
             </div>

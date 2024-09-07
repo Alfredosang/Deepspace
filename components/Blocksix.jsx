@@ -3,7 +3,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ReactPlayer from 'react-player';
+// import ReactPlayer from 'react-player';
 import Image from 'next/image';
 
 const Blocksix = () => {
@@ -34,9 +34,9 @@ const Blocksix = () => {
                                 <p className='font-body font-[600] text-[16px] text-black'>— Jane Doe, Satisfied Learner</p>
                             </div>
                         </div>
-                        <div className='w-full md:w-[335px] h-[240px] md:h-[392px] bg-black rounded-xl overflow-hidden'>
+                        {/* <div className='w-full md:w-[335px] h-[240px] md:h-[392px] bg-black rounded-xl overflow-hidden'>
                             <ReactPlayer url='https://youtu.be/Et7TTfwvBFo?si=FfX9CmU_camj3ynr' width='100%' height='100%' />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -52,9 +52,9 @@ const Blocksix = () => {
                                 <p className='font-body font-[600] text-[16px] text-black'>— Jane Doe, Satisfied Learner</p>
                             </div>
                         </div>
-                        <div className='w-full md:w-[335px] h-[240px] md:h-[392px] bg-black rounded-xl overflow-hidden'>
+                        {/* <div className='w-full md:w-[335px] h-[240px] md:h-[392px] bg-black rounded-xl overflow-hidden'>
                             <ReactPlayer url='https://youtu.be/Et7TTfwvBFo?si=FfX9CmU_camj3ynr' width='100%' height='100%' />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

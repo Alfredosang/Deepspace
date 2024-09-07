@@ -51,7 +51,7 @@ const Deephackerspace = () => {
                     <div className='w-full lg:w-[40%]'>
                         <div className='w-full h-[200px] sm:h-[300px] md:h-[360px] bg-black rounded-[24px] overflow-hidden'>
                             <ReactPlayer
-                                url='https://youtu.be/Et7TTfwvBFo?si=FfX9CmU_camj3ynr'
+                                url='https://www.youtube.com/watch?v=L0ZkrSagL9w'
                                 height='100%'
                                 width='100%'
                                 className='react-player'

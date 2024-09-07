@@ -1,7 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaArrowRight } from "react-icons/fa"
+// import { FaFacebookF, FaLinkedinIn, FaTwitter, FaArrowRight } from "react-icons/fa"
+import {  FaLinkedinIn, FaArrowRight } from "react-icons/fa"
 import { PiInstagramLogoFill } from "react-icons/pi"
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -49,7 +51,7 @@ const Footer = () => {
                     <div className='max-w-full md:max-w-[386px]'>
                         <p className='font-body font-bold text-[20px] text-white mb-3'>Deepspace</p>
                         <p className='text-[14px] md:text-[16px] font-body text-white'>
-                            We’re a vibrant Lagos-based makerspace – the place where innovation thrives. A makerspace is where dreamers, creators, and inventors unite. Ready to turn your ideas into reality? Our hub offers STEM and robotics education for all, from kids to professionals.
+                            We are a vibrant Lagos-based makerspace – the place where innovation thrives. A makerspace is where dreamers, creators, and inventors unite. Ready to turn your ideas into reality? Our hub offers STEM and robotics education for all, from kids to professionals.
                         </p>
                     </div>
 
@@ -89,10 +91,14 @@ const Footer = () => {
                 <div className='flex flex-col md:flex-row justify-between items-center'>
                     <p className='font-body text-white text-[12px] md:text-[14px]'>Deepspace © 2024 . All Rights Reserved.</p>
                     <div className='flex space-x-2 mt-4 md:mt-0'>
-                        <FaFacebookF className='text-white text-[20px] md:text-[24px]' />
-                        <FaLinkedinIn className='text-white text-[20px] md:text-[24px]' />
-                        <PiInstagramLogoFill className='text-white text-[20px] md:text-[24px]' />
-                        <FaTwitter className='text-white text-[20px] md:text-[24px]' />
+                        {/* <FaFacebookF className='text-white text-[20px] md:text-[24px]' /> */}
+                        <Link href="https://www.linkedin.com/company/deepspace-africa/"  target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn className='text-white text-[20px] md:text-[24px]' />
+                        </Link>
+                        <Link href="https://www.instagram.com/deepspace.africa?igsh=ZjYzOXd3aDF2ZmJq"target="_blank" rel="noopener noreferrer">
+                            <PiInstagramLogoFill className='text-white text-[20px] md:text-[24px]' />
+                        </Link>
+                        {/* <FaTwitter className='text-white text-[20px] md:text-[24px]' /> */}
                     </div>
                 </div>
             </div>
