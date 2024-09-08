@@ -74,6 +74,31 @@ const Projectgallery = () => {
                             <Image src="/assets/pg6.png" width={298} height={370} alt="Project image" />
                         </div>
                     </div>
+                    <div className="flex justify-center">
+                        <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px] mx-auto">
+                            <Image src="/assets/sd1.jpg" width={298} height={370} alt="Project image" />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px] mx-auto">
+                            <Image src="/assets/sd2.jpg" width={298} height={370} alt="Project image" />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px] mx-auto">
+                            <Image src="/assets/sd4.jpg" width={298} height={370} alt="Project image" />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px] mx-auto">
+                            <Image src="/assets/sd5.jpg" width={298} height={370} alt="Project image" />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="rounded-[12px] overflow-hidden w-[298px] h-[370px] mx-auto">
+                            <Image src="/assets/sd6.jpg" width={298} height={370} alt="Project image" />
+                        </div>
+                    </div>
                 </Slider>
             </div>
         </div>
