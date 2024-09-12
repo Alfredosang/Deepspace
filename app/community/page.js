@@ -189,9 +189,9 @@ const Community = () => {
                                             All you need to do is to register then you are a part of us
                                         </p>
                                         <Link href='https://chat.whatsapp.com/HbHVCsEbS9p8TUmSh5IPw0'>
-                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                        <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>
@@ -220,9 +220,9 @@ const Community = () => {
                                             All you need to do is to register then you are a part of us
                                         </p>
                                         <Link href='https://chat.whatsapp.com/HbHVCsEbS9p8TUmSh5IPw0'>
-                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                        <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>
@@ -251,9 +251,9 @@ const Community = () => {
                                             All you need to do is to register then you are a part of us
                                         </p>
                                         <Link href='https://chat.whatsapp.com/HbHVCsEbS9p8TUmSh5IPw0'>
-                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                        <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>
@@ -282,9 +282,9 @@ const Community = () => {
                                             All you need to do is to register then you are a part of us
                                         </p>
                                         <Link href='https://chat.whatsapp.com/HbHVCsEbS9p8TUmSh5IPw0'>
-                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                        <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>

@@ -147,8 +147,8 @@ const Deephackerspace = () => {
                                         </p>
                                         <Link href='https://forms.gle/ugG4xt4o5sWDTFGP9'>
                                             <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>
@@ -178,8 +178,8 @@ const Deephackerspace = () => {
                                         </p>
                                         <Link href='https://forms.gle/ashgJ4LQFxwX19Cx9'>
                                             <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>
@@ -209,8 +209,8 @@ const Deephackerspace = () => {
                                         </p>
                                         <Link href='https://forms.gle/EXRE2soARU1FLu7j7'>
                                             <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center items-center mt-5'>
-                                                <p className='text-white pt-3'>Register Now</p>
-                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                                <p className='text-white '>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 ' />
                                             </button>
                                         </Link>
                                     </div>
