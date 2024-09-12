@@ -8,6 +8,11 @@ import Image from 'next/image';
 import { FaArrowRight } from "react-icons/fa6";
 import ReactPlayer from 'react-player';
 import Courses from '@/components/Courses';
+// import { FaArrowRight } from "react-icons/fa6"
+// import Image from 'next/image';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import Link from 'next/link'
 
 const Deephackerspace = () => {
     return (
@@ -75,6 +80,149 @@ const Deephackerspace = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='bg-red-50 p-16 '>
+                    <div className=' container mx-auto'>
+                        <Carousel
+                            additionalTransfrom={0}
+                            arrows={false}
+                            autoPlay={true}
+                            autoPlaySpeed={3000}
+                            centerMode={false}
+                            containerClass="container"
+                            dotListClass=""
+                            draggable
+                            focusOnSelect={false}
+                            infinite={true}
+                            itemClass=""
+                            keyBoardControl
+                            minimumTouchDrag={80}
+                            pauseOnHover
+                            renderArrowsWhenDisabled={false}
+                            renderButtonGroupOutside={false}
+                            renderDotsOutside={false}
+                            responsive={{
+                                desktop: {
+                                    breakpoint: { max: 3000, min: 1024 },
+                                    items: 1
+                                },
+                                tablet: {
+                                    breakpoint: { max: 1024, min: 464 },
+                                    items: 1
+                                },
+                                mobile: {
+                                    breakpoint: { max: 464, min: 0 },
+                                    items: 1
+                                }
+                            }}
+                            rewind={false}
+                            rewindWithAnimation={false}
+                            rtl={false}
+                            shouldResetAutoplay
+                            showDots
+                            sliderClass=""
+                            slidesToSlide={1}
+                            swipeable
+                        >
+                            <div className='flex flex-col md:flex-row max-w-full mx-auto px-7'>
+                                <div className='w-full md:w-1/2'>
+                                    <Image
+                                        src="/assets/DeepLearning1.png"
+                                        width={524}
+                                        height={524}
+                                        alt="Metal works poster"
+                                        layout="responsive"
+                                    />
+                                </div>
+
+                                <div className='w-full md:w-1/2 md:ml-10 pt-8 md:pt-16'>
+                                    <div>
+                                        
+                                        <div className='flex flex-col md:flex-row items-start md:items-center mt-4'>
+                                            <h1 className='font-body font-[600] text-black text-[32px] md:text-[64px] max-w-full md:max-w-[400px] leading-tight'>3D FORGE: DESIGN & INNOVATION WORKSHOP</h1>
+                                            
+                                        </div>
+                                        <p className='font-body font-[600] text-black text-[14px] md:text-[16px] mt-4 max-w-full md:max-w-[533px]'>
+                                            All you need to do is to register then you are a part of us
+                                        </p>
+                                        <Link href='https://forms.gle/ugG4xt4o5sWDTFGP9'>
+                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
+                                                <p className='text-white pt-3'>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                            </button>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex flex-col md:flex-row max-w-full mx-auto px-7'>
+                                <div className='w-full md:w-1/2'>
+                                    <Image
+                                        src="/assets/DeepLearning2.png"
+                                        width={524}
+                                        height={524}
+                                        alt="Metal works poster"
+                                        layout="responsive"
+                                    />
+                                </div>
+
+                                <div className='w-full md:w-1/2 md:ml-10 pt-8 md:pt-16'>
+                                    <div>
+                                        
+                                        <div className='flex flex-col md:flex-row items-start md:items-center mt-4'>
+                                            <h1 className='font-body font-[600] text-black text-[32px] md:text-[64px] max-w-full md:max-w-[400px] leading-tight'>HANDS ON CLAY WORKSHOP</h1>
+                                            
+                                        </div>
+                                        <p className='font-body font-[600] text-black text-[14px] md:text-[16px] mt-4 max-w-full md:max-w-[533px]'>
+                                            All you need to do is to register then you are a part of us
+                                        </p>
+                                        <Link href='https://forms.gle/ashgJ4LQFxwX19Cx9'>
+                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
+                                                <p className='text-white pt-3'>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                            </button>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex flex-col md:flex-row max-w-full mx-auto px-7'>
+                                <div className='w-full md:w-1/2'>
+                                    <Image
+                                        src="/assets/DeepLearning3.png"
+                                        width={524}
+                                        height={524}
+                                        alt="Metal works poster"
+                                        layout="responsive"
+                                    />
+                                </div>
+
+                                <div className='w-full md:w-1/2 md:ml-10 pt-8 md:pt-16'>
+                                    <div>
+                                        
+                                        <div className='flex flex-col md:flex-row items-start md:items-center mt-4'>
+                                            <h1 className='font-body font-[600] text-black text-[32px] md:text-[64px] max-w-full md:max-w-[400px] leading-tight'>ANYONE CAN PAINT WORKSHOP</h1>
+                                            
+                                        </div>
+                                        <p className='font-body font-[600] text-black text-[14px] md:text-[16px] mt-4 max-w-full md:max-w-[533px]'>
+                                            All you need to do is to register then you are a part of us
+                                        </p>
+                                        <Link href='https://forms.gle/EXRE2soARU1FLu7j7'>
+                                            <button className='bg-secondary-100 w-full md:w-[168px] h-[48px] rounded-[35px] flex justify-center mt-5'>
+                                                <p className='text-white pt-3'>Register Now</p>
+                                                <FaArrowRight className='text-white text-[18px] ml-2 mt-2 md:mt-3' />
+                                            </button>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </Carousel>
+
+                    </div>
+                </div>
+
 
             {/* Additional Sections */}
             <div className='container mx-auto px-4 py-8'>
