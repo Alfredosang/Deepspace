@@ -81,8 +81,8 @@ const Deephackerspace = () => {
                 </div>
             </div>
 
-            <div className='bg-red-50 p-16 '>
-                    <div className=' container mx-auto'>
+            <div className='bg-red-50 p-4 md:p-16 '>
+                    <div className=' container mx-auto flex justify-center items-center'>
                         <Carousel
                             additionalTransfrom={0}
                             arrows={false}
